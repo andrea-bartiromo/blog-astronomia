@@ -12,7 +12,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
          <div class="container">
             <a class="navbar-brand" href="#">AstroBlog</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Attiva/disattiva navigazione">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -118,9 +118,9 @@
       <!-- Carousel -->
       <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Vai alla slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Vai alla slide 2"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Vai alla slide 3"></button>
          </div>
          <div class="carousel-inner">
             <div class="carousel-item active">
@@ -145,10 +145,10 @@
                </div>
             </div>
          </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+         <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev" aria-label="Precedente">
          <span class="carousel-control-prev-icon"></span>
          </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+         <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next" aria-label="Successivo">
          <span class="carousel-control-next-icon"></span>
          </button>
       </div>
