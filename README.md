@@ -2,69 +2,104 @@
 
 ## Descrizione
 
-AstroBlog è un sito web statico dedicato alla divulgazione astronomica. Il progetto propone una homepage informativa sul sistema solare e sull'universo, oltre a una pagina di approfondimento dedicata al pianeta Marte, con l'obiettivo di offrire contenuti chiari e visivamente curati agli appassionati di astronomia.
+AstroBlog è un sito web statico dedicato alla divulgazione astronomica. Il progetto propone una homepage informativa sul Sistema Solare e sull'Universo, oltre a una pagina di approfondimento dedicata al pianeta Marte, con l'obiettivo di offrire contenuti chiari, accessibili e visivamente curati agli appassionati di astronomia.
 
-## Screenshot
+---
 
-> Lo screenshot del progetto verrà aggiunto dopo la pubblicazione su GitHub Pages.
+## 🌍 Live Demo
+
+Il progetto è disponibile online tramite GitHub Pages:
+
+**➡️ https://andrea-bartiromo.github.io/blog-astronomia/**
+
+---
+
+## 📸 Screenshot
+
+![Homepage di AstroBlog](./img/astroblog-home.png)
+
+---
 
 ## Funzionalità principali
 
-- **Homepage** con sezione hero, presentazione del progetto e delle fonti di riferimento (NASA, ESA, ASI, INAF).
-- **Carousel di immagini** (Bootstrap) sia in homepage sia nella pagina dedicata a Marte, con didascalie descrittive.
-- **Sezione "Ultime News"** e **"Articoli in Evidenza"** con card informative e immagini.
-- **Sezione community** con elenco delle iniziative proposte (serate osservative, webinar, forum, concorsi fotografici).
-- **Pagina dedicata a Marte** (`marte.html`) con box "Dati principali" (diametro, massa) e galleria di immagini della superficie del pianeta.
-- **Navbar con menu a tendina** per le categorie Sistema Solare, Galassia e Universo.
-- **Design responsive**, basato sul sistema a griglia di Bootstrap e su media query personalizzate in `style.css`.
+- **Homepage** con sezione hero, presentazione del progetto e delle principali fonti di riferimento (NASA, ESA, ASI e INAF).
+- **Carousel di immagini** (Bootstrap) sia nella homepage sia nella pagina dedicata a Marte, con didascalie descrittive.
+- **Sezione "Ultime News"** e **"Articoli in Evidenza"** con card informative.
+- **Sezione Community** dedicata a iniziative come serate osservative, webinar, forum e concorsi fotografici.
+- **Pagina dedicata a Marte** (`marte.html`) con dati principali, immagini e approfondimenti.
+- **Navbar responsive** con menu a tendina dedicati a Sistema Solare, Galassia e Universo.
+- **Design responsive**, realizzato con Bootstrap 5 e CSS personalizzato.
+
+---
 
 ## Tecnologie utilizzate
 
 - **HTML5** per la struttura semantica delle pagine.
-- **CSS3** per lo stile personalizzato (variabili CSS, gradienti, animazioni, media query).
-- **Bootstrap 5.3.2** (CSS e JS bundle via CDN) per componenti UI come navbar, carousel e card.
-- **Git / GitHub** per il versionamento del codice.
+- **CSS3** per lo stile personalizzato (variabili CSS, gradienti, animazioni e media query).
+- **Bootstrap 5.3.2** (CSS e JavaScript via CDN) per componenti responsive come navbar, carousel e card.
+- **Git** e **GitHub** per il versionamento del codice.
+- **GitHub Pages** per la pubblicazione online del progetto.
+
+---
 
 ## Struttura del progetto
 
-```
+```text
 blog-astronomia/
-├── index.html      # Homepage del sito
-├── marte.html       # Pagina di approfondimento dedicata a Marte
-├── style.css         # Fogli di stile personalizzati
-└── img/              # Immagini utilizzate nel sito (loghi, foto, illustrazioni)
+├── index.html                 # Homepage
+├── marte.html                 # Pagina dedicata a Marte
+├── style.css                  # Foglio di stile
+├── img/                       # Immagini del progetto
+└── README.md
 ```
+
+---
 
 ## Come eseguire il progetto in locale
 
-Il progetto è un sito statico e non richiede alcuna installazione o build.
+Essendo un sito statico, il progetto non richiede installazioni o build.
 
 1. Clona il repository:
-   ```bash
-   git clone https://github.com/andrea-bartiromo/blog-astronomia.git
-   ```
+
+```bash
+git clone https://github.com/andrea-bartiromo/blog-astronomia.git
+```
+
 2. Entra nella cartella del progetto:
-   ```bash
-   cd blog-astronomia
-   ```
-3. Apri `index.html` direttamente nel browser, oppure avvia un server locale (ad esempio con l'estensione "Live Server" di VS Code) per una navigazione ottimale tra le pagine.
+
+```bash
+cd blog-astronomia
+```
+
+3. Apri `index.html` direttamente nel browser oppure utilizza un server locale (ad esempio l'estensione **Live Server** di Visual Studio Code).
+
+---
 
 ## Competenze dimostrate
 
-- Realizzazione di pagine HTML semantiche e ben strutturate.
-- Scrittura di CSS personalizzato con variabili, gradienti e animazioni.
-- Utilizzo di un framework CSS (Bootstrap) per la realizzazione di componenti UI responsive.
-- Organizzazione ordinata dei file di un progetto front-end statico.
-- Gestione del codice tramite Git e GitHub, con workflow basato su commit incrementali.
+- Sviluppo di pagine web semantiche in HTML5.
+- Realizzazione di layout responsive con Bootstrap.
+- Personalizzazione dell'interfaccia tramite CSS3.
+- Miglioramento dell'accessibilità (ARIA, skip link e struttura semantica).
+- Ottimizzazione SEO (meta tag, Open Graph e Twitter Cards).
+- Ottimizzazione delle prestazioni di caricamento delle immagini.
+- Gestione del progetto tramite Git e GitHub con commit incrementali e documentati.
+- Pubblicazione del sito tramite GitHub Pages.
+
+---
 
 ## Possibili sviluppi futuri
 
-- Completamento delle pagine dedicate agli altri corpi celesti già presenti nel menu di navigazione (attualmente collegati con link segnaposto).
-- Sostituzione delle immagini segnaposto residue (`/api/placeholder/...`) con asset definitivi.
-- Miglioramento dell'accessibilità e della SEO delle pagine.
-- Eventuale introduzione di contenuti dinamici o di un backend per la gestione degli articoli.
+- Realizzazione delle pagine dedicate agli altri pianeti del Sistema Solare.
+- Integrazione di contenuti aggiornati tramite API pubbliche (ad esempio NASA APOD).
+- Introduzione di una funzione di ricerca tra gli articoli.
+- Evoluzione del progetto verso un sito dinamico con backend e CMS.
+- Implementazione di una sezione dedicata alle ultime missioni spaziali.
+
+---
 
 ## Autore
 
 **Andrea Bartiromo**
-GitHub: [@andrea-bartiromo](https://github.com/andrea-bartiromo)
+
+GitHub: https://github.com/andrea-bartiromo
