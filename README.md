@@ -16,7 +16,7 @@ Il progetto è disponibile online tramite GitHub Pages:
 
 ## 📸 Screenshot
 
-![Homepage di AstroBlog](./img/astroblog-home.png)
+Sarà inserito successivamente
 
 ---
 
