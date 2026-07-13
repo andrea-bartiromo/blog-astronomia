@@ -70,6 +70,7 @@ Attualmente il sito comprende approfondimenti dedicati a:
 - ☄️ Asteroidi
 - ☄️ Comete
 - 🪐 Fascia di Kuiper
+- 🧊 Nube di Oort
 
 Oltre agli speciali dedicati ai pianeti e ai corpi minori, il sito include sezioni dedicate a:
 
@@ -77,7 +78,7 @@ Oltre agli speciali dedicati ai pianeti e ai corpi minori, il sito include sezio
 - ☁️ Nebulose
 - 🔭 Osservare il cielo
 
-Il progetto potrà continuare ad espandersi con nuovi approfondimenti sulla **Nube di Oort** e su ulteriori argomenti dedicati all'esplorazione dell'Universo.
+Il progetto potrà continuare ad espandersi con ulteriori argomenti dedicati all'esplorazione dell'Universo.
 
 ---
 
@@ -145,6 +146,7 @@ blog-astronomia/
 ├── asteroidi.html
 ├── comete.html
 ├── fascia-kuiper.html
+├── nube-oort.html
 ├── via-lattea.html
 ├── nebulose.html
 ├── osservare-il-cielo.html
@@ -200,7 +202,6 @@ AstroBlog è un progetto in continua evoluzione.
 
 Tra gli sviluppi possibili per le prossime versioni figurano:
 
-- pagina dedicata alla Nube di Oort;
 - ottimizzazione continua delle immagini e degli asset locali;
 - ulteriori miglioramenti dell'accessibilità;
 - ricerca interna tra gli articoli;
