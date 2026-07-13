@@ -51,7 +51,7 @@ Il progetto è pubblicato tramite **GitHub Pages** ed è disponibile al seguente
 
 ## 🌠 Contenuti del sito
 
-Nel corso dello sviluppo AstroBlog è cresciuto fino a diventare un vero portale dedicato all'esplorazione del Sistema Solare e dell'Universo.
+AstroBlog è ormai vicino alla versione 1.0: il sito comprende un percorso editoriale completo sul Sistema Solare, pagine dedicate all'osservazione del cielo e approfondimenti introduttivi sull'Universo.
 
 La sezione principale è dedicata al **Sistema Solare**, dove ogni corpo celeste dispone di uno speciale editoriale che ne racconta caratteristiche fisiche, origine, struttura, atmosfera, missioni spaziali e curiosità scientifiche.
 
@@ -69,6 +69,7 @@ Attualmente il sito comprende approfondimenti dedicati a:
 - ♆ Nettuno
 - ☄️ Asteroidi
 - ☄️ Comete
+- 🪐 Fascia di Kuiper
 
 Oltre agli speciali dedicati ai pianeti e ai corpi minori, il sito include sezioni dedicate a:
 
@@ -76,7 +77,7 @@ Oltre agli speciali dedicati ai pianeti e ai corpi minori, il sito include sezio
 - ☁️ Nebulose
 - 🔭 Osservare il cielo
 
-Il progetto continuerà ad espandersi con nuovi approfondimenti sulla **Fascia di Kuiper**, sulla **Nube di Oort** e su ulteriori argomenti dedicati all'esplorazione dell'Universo.
+Il progetto potrà continuare ad espandersi con nuovi approfondimenti sulla **Nube di Oort** e su ulteriori argomenti dedicati all'esplorazione dell'Universo.
 
 ---
 
@@ -92,9 +93,10 @@ Tra le principali caratteristiche del progetto troviamo:
 - navigazione uniforme tra tutti gli articoli;
 - rete di collegamenti interni tra gli approfondimenti;
 - ottimizzazione SEO con meta tag, Open Graph e Twitter Card;
+- sitemap XML, robots.txt e pagina 404 personalizzata per GitHub Pages;
 - immagini ufficiali NASA, ESA e JPL con crediti riportati nelle pagine;
 - attenzione all'accessibilità grazie a skip link, struttura semantica e testi alternativi;
-- pubblicazione automatica tramite GitHub Pages;
+- pubblicazione tramite GitHub Pages;
 - codice organizzato e facilmente manutenibile.
 
 ---
@@ -142,16 +144,18 @@ blog-astronomia/
 ├── nettuno.html
 ├── asteroidi.html
 ├── comete.html
+├── fascia-kuiper.html
 ├── via-lattea.html
 ├── nebulose.html
 ├── osservare-il-cielo.html
 ├── chi-siamo.html
+├── 404.html
+├── robots.txt
+├── sitemap.xml
 ├── style.css
 ├── img/
 └── README.md
 ```
-
-*La struttura verrà aggiornata al completamento della versione 1.0 del progetto.*
 
 ---
 
@@ -186,7 +190,7 @@ Attraverso questo progetto sono state approfondite attività quali:
 - gestione delle immagini e delle risorse multimediali;
 - utilizzo di Git e GitHub secondo un workflow professionale;
 - gestione del versionamento attraverso Branch, Pull Request e Merge;
-- pubblicazione continua tramite GitHub Pages.
+- pubblicazione tramite GitHub Pages.
 
 ---
 
@@ -194,16 +198,11 @@ Attraverso questo progetto sono state approfondite attività quali:
 
 AstroBlog è un progetto in continua evoluzione.
 
-Tra gli sviluppi previsti per le prossime versioni figurano:
+Tra gli sviluppi possibili per le prossime versioni figurano:
 
-- completamento della sezione dedicata ai corpi minori del Sistema Solare;
-- pagina dedicata alla Fascia di Kuiper;
 - pagina dedicata alla Nube di Oort;
-- ottimizzazione completa delle immagini con asset locali in formato WebP;
-- sitemap XML;
-- robots.txt;
-- pagina 404 personalizzata;
-- miglioramenti dell'accessibilità;
+- ottimizzazione continua delle immagini e degli asset locali;
+- ulteriori miglioramenti dell'accessibilità;
 - ricerca interna tra gli articoli;
 - modalità scura;
 - calendario degli eventi astronomici;
