@@ -1,105 +1,223 @@
-# AstroBlog
+# 🌌 AstroBlog
 
-## Descrizione
+*Un magazine digitale dedicato alla divulgazione astronomica.*
 
-AstroBlog è un sito web statico dedicato alla divulgazione astronomica. Il progetto propone una homepage informativa sul Sistema Solare e sull'Universo, oltre a una pagina di approfondimento dedicata al pianeta Marte, con l'obiettivo di offrire contenuti chiari, accessibili e visivamente curati agli appassionati di astronomia.
-
----
-
-## 🌍 Live Demo
-
-Il progetto è disponibile online tramite GitHub Pages:
-
-**➡️ https://andrea-bartiromo.github.io/blog-astronomia/**
+> **AstroBlog** è un progetto personale sviluppato da **Andrea Bartiromo** con l'obiettivo di rendere l'astronomia accessibile, coinvolgente e scientificamente affidabile attraverso un'esperienza di lettura moderna, intuitiva e ottimizzata per tutti i dispositivi.
 
 ---
 
 ## 📸 Screenshot
 
-Sarà inserito successivamente
+<p align="center">
+  <img src="img/homepage.png" alt="Homepage di AstroBlog" width="900">
+</p>
+
+<p align="center">
+  <em>Homepage di AstroBlog</em>
+</p>
 
 ---
 
-## Funzionalità principali
+## 📖 Il progetto
 
-- **Homepage** con sezione hero, presentazione del progetto e delle principali fonti di riferimento (NASA, ESA, ASI e INAF).
-- **Carousel di immagini** (Bootstrap) sia nella homepage sia nella pagina dedicata a Marte, con didascalie descrittive.
-- **Sezione "Ultime News"** e **"Articoli in Evidenza"** con card informative.
-- **Sezione Community** dedicata a iniziative come serate osservative, webinar, forum e concorsi fotografici.
-- **Pagina dedicata a Marte** (`marte.html`) con dati principali, immagini e approfondimenti.
-- **Navbar responsive** con menu a tendina dedicati a Sistema Solare, Galassia e Universo.
-- **Design responsive**, realizzato con Bootstrap 5 e CSS personalizzato.
+AstroBlog nasce dalla volontà di unire due passioni: la comunicazione digitale e l'astronomia. L'idea alla base del progetto è quella di realizzare un magazine online capace di accompagnare il lettore alla scoperta dell'Universo attraverso articoli approfonditi, un linguaggio chiaro e una grafica pulita.
+
+Il sito non è stato concepito come una semplice raccolta di informazioni, ma come un vero e proprio percorso editoriale. Ogni pagina approfondisce un argomento specifico mantenendo uno stile uniforme, una navigazione coerente e una rete di collegamenti che facilita la scoperta di contenuti correlati.
+
+I contenuti sono sviluppati prendendo come riferimento fonti scientifiche autorevoli quali **NASA**, **ESA**, **ASI** e **INAF**, con l'obiettivo di coniugare rigore scientifico e divulgazione.
 
 ---
 
-## Tecnologie utilizzate
+## 🎯 Obiettivi del progetto
 
-- **HTML5** per la struttura semantica delle pagine.
-- **CSS3** per lo stile personalizzato (variabili CSS, gradienti, animazioni e media query).
-- **Bootstrap 5.3.2** (CSS e JavaScript via CDN) per componenti responsive come navbar, carousel e card.
-- **Git** e **GitHub** per il versionamento del codice.
-- **GitHub Pages** per la pubblicazione online del progetto.
+AstroBlog è stato sviluppato con l'obiettivo di:
+
+- divulgare l'astronomia attraverso contenuti chiari e accessibili;
+- realizzare un sito web moderno, veloce e completamente responsive;
+- applicare buone pratiche di sviluppo front-end;
+- progettare un'esperienza di navigazione semplice e intuitiva;
+- sperimentare un workflow professionale basato su Git e GitHub;
+- creare un progetto concreto da inserire nel proprio portfolio personale.
 
 ---
 
-## Struttura del progetto
+## 🌍 Demo online
+
+Il progetto è pubblicato tramite **GitHub Pages** ed è disponibile al seguente indirizzo:
+
+➡️ **https://andrea-bartiromo.github.io/blog-astronomia/**
+
+---
+
+## 🌠 Contenuti del sito
+
+Nel corso dello sviluppo AstroBlog è cresciuto fino a diventare un vero portale dedicato all'esplorazione del Sistema Solare e dell'Universo.
+
+La sezione principale è dedicata al **Sistema Solare**, dove ogni corpo celeste dispone di uno speciale editoriale che ne racconta caratteristiche fisiche, origine, struttura, atmosfera, missioni spaziali e curiosità scientifiche.
+
+Attualmente il sito comprende approfondimenti dedicati a:
+
+- ☀️ Sole
+- ☿ Mercurio
+- ♀ Venere
+- 🌍 Terra
+- 🌙 Luna
+- ♂ Marte
+- ♃ Giove
+- ♄ Saturno
+- ♅ Urano
+- ♆ Nettuno
+- ☄️ Asteroidi
+- ☄️ Comete
+
+Oltre agli speciali dedicati ai pianeti e ai corpi minori, il sito include sezioni dedicate a:
+
+- 🌌 Via Lattea
+- ☁️ Nebulose
+- 🔭 Osservare il cielo
+
+Il progetto continuerà ad espandersi con nuovi approfondimenti sulla **Fascia di Kuiper**, sulla **Nube di Oort** e su ulteriori argomenti dedicati all'esplorazione dell'Universo.
+
+---
+
+## ✨ Caratteristiche principali
+
+AstroBlog è stato progettato prestando particolare attenzione sia all'aspetto editoriale sia a quello tecnico.
+
+Tra le principali caratteristiche del progetto troviamo:
+
+- layout completamente responsive;
+- pagine sviluppate con HTML5 semantico;
+- fogli di stile CSS3 personalizzati;
+- navigazione uniforme tra tutti gli articoli;
+- rete di collegamenti interni tra gli approfondimenti;
+- ottimizzazione SEO con meta tag, Open Graph e Twitter Card;
+- immagini ufficiali NASA, ESA e JPL con crediti riportati nelle pagine;
+- attenzione all'accessibilità grazie a skip link, struttura semantica e testi alternativi;
+- pubblicazione automatica tramite GitHub Pages;
+- codice organizzato e facilmente manutenibile.
+
+---
+
+## 🛠 Tecnologie utilizzate
+
+Il progetto è stato sviluppato utilizzando tecnologie web moderne e leggere, senza ricorrere a framework complessi.
+
+Le principali tecnologie impiegate sono:
+
+- HTML5
+- CSS3
+- Git
+- GitHub
+- GitHub Pages
+
+Durante lo sviluppo è stato adottato un workflow professionale basato su:
+
+- branch dedicati;
+- commit incrementali;
+- Pull Request;
+- merge manuali;
+- controllo delle modifiche prima della pubblicazione.
+
+Questo approccio ha permesso di mantenere il codice ordinato, facilmente revisionabile e stabile durante tutta l'evoluzione del progetto.
+
+---
+
+## 📂 Struttura del progetto
 
 ```text
 blog-astronomia/
-├── index.html                 # Homepage
-├── marte.html                 # Pagina dedicata a Marte
-├── style.css                  # Foglio di stile
-├── img/                       # Immagini del progetto
+│
+├── index.html
+├── sistema-solare.html
+├── sole.html
+├── mercurio.html
+├── venere.html
+├── terra.html
+├── luna.html
+├── marte.html
+├── giove.html
+├── saturno.html
+├── urano.html
+├── nettuno.html
+├── asteroidi.html
+├── comete.html
+├── via-lattea.html
+├── nebulose.html
+├── osservare-il-cielo.html
+├── chi-siamo.html
+├── style.css
+├── img/
 └── README.md
 ```
 
+*La struttura verrà aggiornata al completamento della versione 1.0 del progetto.*
+
 ---
 
-## Come eseguire il progetto in locale
+## ▶️ Come eseguire il progetto
 
-Essendo un sito statico, il progetto non richiede installazioni o build.
+Essendo un sito web statico, AstroBlog non richiede installazioni particolari né procedure di compilazione.
 
-1. Clona il repository:
+Per eseguirlo in locale è sufficiente clonare il repository:
 
 ```bash
 git clone https://github.com/andrea-bartiromo/blog-astronomia.git
-```
 
-2. Entra nella cartella del progetto:
-
-```bash
 cd blog-astronomia
 ```
 
-3. Apri `index.html` direttamente nel browser oppure utilizza un server locale (ad esempio l'estensione **Live Server** di Visual Studio Code).
+Successivamente sarà possibile aprire direttamente `index.html` nel browser oppure utilizzare un server locale, ad esempio tramite l'estensione **Live Server** di Visual Studio Code.
 
 ---
 
-## Competenze dimostrate
+## 🎯 Competenze sviluppate
 
-- Sviluppo di pagine web semantiche in HTML5.
-- Realizzazione di layout responsive con Bootstrap.
-- Personalizzazione dell'interfaccia tramite CSS3.
-- Miglioramento dell'accessibilità (ARIA, skip link e struttura semantica).
-- Ottimizzazione SEO (meta tag, Open Graph e Twitter Cards).
-- Ottimizzazione delle prestazioni di caricamento delle immagini.
-- Gestione del progetto tramite Git e GitHub con commit incrementali e documentati.
-- Pubblicazione del sito tramite GitHub Pages.
+La realizzazione di AstroBlog ha rappresentato un'importante occasione per consolidare competenze sia tecniche sia progettuali.
 
----
+Attraverso questo progetto sono state approfondite attività quali:
 
-## Possibili sviluppi futuri
-
-- Realizzazione delle pagine dedicate agli altri pianeti del Sistema Solare.
-- Integrazione di contenuti aggiornati tramite API pubbliche (ad esempio NASA APOD).
-- Introduzione di una funzione di ricerca tra gli articoli.
-- Evoluzione del progetto verso un sito dinamico con backend e CMS.
-- Implementazione di una sezione dedicata alle ultime missioni spaziali.
+- progettazione dell'architettura di un sito editoriale;
+- sviluppo front-end con HTML5 e CSS3;
+- realizzazione di layout responsive;
+- progettazione dell'esperienza utente;
+- ottimizzazione SEO;
+- miglioramento dell'accessibilità;
+- gestione delle immagini e delle risorse multimediali;
+- utilizzo di Git e GitHub secondo un workflow professionale;
+- gestione del versionamento attraverso Branch, Pull Request e Merge;
+- pubblicazione continua tramite GitHub Pages.
 
 ---
 
-## Autore
+## 🚀 Evoluzioni future
+
+AstroBlog è un progetto in continua evoluzione.
+
+Tra gli sviluppi previsti per le prossime versioni figurano:
+
+- completamento della sezione dedicata ai corpi minori del Sistema Solare;
+- pagina dedicata alla Fascia di Kuiper;
+- pagina dedicata alla Nube di Oort;
+- ottimizzazione completa delle immagini con asset locali in formato WebP;
+- sitemap XML;
+- robots.txt;
+- pagina 404 personalizzata;
+- miglioramenti dell'accessibilità;
+- ricerca interna tra gli articoli;
+- modalità scura;
+- calendario degli eventi astronomici;
+- integrazione con API pubbliche dedicate all'astronomia.
+
+L'obiettivo è trasformare AstroBlog in un punto di riferimento per chi desidera avvicinarsi all'astronomia attraverso contenuti affidabili, aggiornati e facilmente consultabili.
+
+---
+
+## 👤 Autore
 
 **Andrea Bartiromo**
 
-GitHub: https://github.com/andrea-bartiromo
+AstroBlog è un progetto personale sviluppato e curato da Andrea Bartiromo con l'obiettivo di coniugare divulgazione scientifica, sviluppo web e comunicazione digitale.
+
+- **GitHub:** https://github.com/andrea-bartiromo
+- **Demo online:** https://andrea-bartiromo.github.io/blog-astronomia/
