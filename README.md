@@ -17,6 +17,10 @@
 </p>
 
 ---
+## Demo Online
+
+IL progetto è visibile al indirizzo:
+https://andrea-bartiromo.github.io/blog-astronomia/
 
 ## 📖 Il progetto
 
