@@ -1,0 +1,15 @@
+/* Correzione proporzioni immagini della homepage */
+
+.cover-rail .media-link img,
+.editorial-list img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 650px) {
+  .editorial-list img {
+    max-height: none;
+  }
+}

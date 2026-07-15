@@ -1,0 +1,8 @@
+/* Correzioni responsive per immagini editoriali della homepage */
+.cover-rail .rail-story img,
+.editorial-list img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
