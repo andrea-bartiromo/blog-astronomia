@@ -25,7 +25,7 @@ body {
   line-height: 1.65;
   text-rendering: optimizeLegibility;
 }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; }
 button, input, textarea, select { font: inherit; }
 
@@ -254,7 +254,13 @@ button, input, textarea, select { font: inherit; }
 .editorial-list article p:last-child { color: #aeb4c2; }
 
 .observe-layout { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 2rem; align-items: stretch; }
-.observe-layout > img { width: 100%; height: 100%; min-height: 520px; object-fit: cover; }
+
+.observe-layout > img {
+  width: 100%;
+  height: auto;
+  min-height: 0;
+  object-fit: cover;
+}
 .observe-copy { background: white; padding: 2rem; border: 1px solid var(--line); }
 .steps { list-style: none; padding: 0; margin: 0; }
 .steps li { display: grid; grid-template-columns: 54px 1fr; gap: 1rem; padding-block: 1.4rem; border-bottom: 1px solid var(--line); }
@@ -343,7 +349,7 @@ button, input, textarea, select { font: inherit; }
   .editorial-list img { grid-column: 2; }
   .editorial-list article > div { grid-column: 2; }
   .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .observe-layout > img { min-height: 320px; }
+  .observe-layout > img { min-height: 0; }
   .data-grid { grid-template-columns: 1fr; }
 }
 
