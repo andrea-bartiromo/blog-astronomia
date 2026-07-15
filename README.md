@@ -43,10 +43,7 @@ AstroBlog è stato sviluppato con l'obiettivo di:
 
 ## 🌍 Demo online
 
-Il progetto è pubblicato tramite **GitHub Pages** ed è disponibile al seguente indirizzo:
-
-➡️ **https://andrea-bartiromo.github.io/blog-astronomia/**
-
+Sarà disponibile successivamente
 ---
 
 ## 🌠 Contenuti del sito
